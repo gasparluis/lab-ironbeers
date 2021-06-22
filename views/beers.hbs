@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    {{#each beersFromTheAPI}}
+    {{!-- the image_url é o nome que está mencionado no API --}}
+      <li><img src="{{image_url}}" alt=""> </li> 
+      <li>{{name}}</li>
+      <li>{{description}}</li>
+      <li>{{tagline}}</li>
+    {{/each}}
+  </ul>
+</div>
